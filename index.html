@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Story template</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+        margin: 0;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        text-rendering: optimizeLegibility;
+        background-color: #f4f7f7;
+}
+
+        .content {
+            max-width: 640px;
+            margin: auto;
+        }
+
+        .header {
+            padding: 3em 0;
+        }
+
+        a {
+            color: #f05349;
+        }
+
+        .footer {
+            background: #eef6fa;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        figure {
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #666;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: 'Lora', Georgia, serif;
+        }
+
+        .full-width figure {
+            text-align: center;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #eef6fa;
+        }
+
+        /* Margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+    <style>
+            .with-image-bg {
+            position: relative;
+            background-image: url('title.jpg');
+            background-size: contain; /* Ensures the whole image fits */
+            background-position: top center; /* Aligns image properly */
+            background-repeat: no-repeat;
+            margin-bottom: 2em;
+
+            /* Increase height if image still looks small */
+            min-height: 90vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* White text with a shadow */
+            color: white;
+            text-shadow: 0px 0px 30px black, 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+
+        .with-video-bg {
+            position: relative;
+            background-size: cover;
+            margin-bottom: 2em;
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .video-background video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header with-image-bg">
+        <div class="content">
+            <h1</h1>
+            <p class="subhead"></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="byline">
+        </div>
+        <p>Suzzie Olvera took just her backpack and laptop the first time she went to go see him ten years ago. 
+        </p>
+        <p>Olvera didn't return back home until a year later, when she ran away. A survivor of human trafficking, Olvera had crossed the border from Mexico to the U.S and gave birth to her first child in April 2017. </p>
+        <p>Olvera escaped, but it also meant carrying the immense trauma of being abused, both from growing up and from the abusive relationship. From hallucinations to severe PTSD and depression, Olvera was seeking medical help for her mental health and applied for Social Security Insurance in 2019. </p>
+        <p>She didn't receive it till 2021.</p>
+        <p>As a new mom, Olvera said those three years “sucked.” Maggots would get on her dishes because her disability prevented her from being able to wash the dishes. </p>
+        <p>In the last 25 years less pending cases increased by X% since 2000. Texas, where Olvera lives with her three children, had the highest number of pending cases in 2024, surpassing 1.9 million. </p>
+        <style>
+            /* Responsive image container */
+            #g-template-box {
+                width: 100%;
+            }
+        
+            #g-template-medium,
+            #g-template-laptop,
+            #g-template-mobile {
+                display: none;
+                width: 100%;
+            }
+        
+            /* Large screens - show medium image */
+            @media screen and (min-width: 620px) {
+                #g-template-medium {
+                    display: block;
+                }
+            }
+        
+            /* Medium screens - show laptop image */
+            @media screen and (min-width: 490px) and (max-width: 619px) {
+                #g-template-laptop {
+                    display: block;
+                }
+            }
+        
+            /* Small screens - show mobile image */
+            @media screen and (max-width: 489px) {
+                #g-template-mobile {
+                    display: block;
+                }
+            }
+        </style>
+        
+        <div id="g-template-box" class="ai2html">
+            <!-- Artboard: medium -->
+            <div id="g-template-medium" class="g-artboard">
+                <img src="template-medium.jpg" alt="Disability data visualization" style="width:100%;"/>
+            </div>
+        
+            <!-- Artboard: laptop -->
+            <div id="g-template-laptop" class="g-artboard">
+                <img src="template-laptop.jpg" alt="Disability data visualization" style="width:100%;"/>
+            </div>
+        
+            <!-- Artboard: mobile -->
+            <div id="g-template-mobile" class="g-artboard">
+                <img src="template-mobile.jpg" alt="Disability data visualization" style="width:100%;"/>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="header with-video-bg">
+        <div class="video-background">
+            <video src="bg-video.mp4" preload="auto" tabindex="0" playsinline autoplay loop muted></video>
+        </div>
+        <div class="content">
+            <p class="subhead"></p>
+            <p>The Social Security Administration approved Less than 40% of SSI and SSDI claims. 2024 was no different, with just X% approved and with over X cases pending. </p>
+            <p>Elon Musk's Department of Government Efficiency has made staff cuts to the Social Security Administration, which have led to system outages, said Martin O' Malley, former Social Security Administration under  president Joe Biden and former governor of Maryland. </p>
+            <p>“Ultimately, you're going to see the system collapse and an interruption of benefits,” O'Malley said. “I believe you will see that within the next 30 to 90 days.” O'Malley added that “people should start saving now.”</p>
+            <p>X years later Olvera gave birth to her second child, Cleo. Baby Cleo was born weak with a flat head. </p>
+            <p>“We would lean her on our chest, and she wanted to look up, to look at people and she only had enough muscle to gently move her head up,” Olvera said. “But then it'd fall back down, and she started smacking her nose on my collarbone and start crying.” </p>
+            <p>Eleven months later Cleo vomited in Olvera's car and had a 45 minute long seizure in the X hospital. It took X years for doctors to diagnose Cleo with spastic paraplegia type 47. Olvera applied for her daughter's SSI in 2019 and received it three months later in San Antonio, Texas. </p>
+            <p>SSI Children benefits had a higher rate of approval than SSDI benefits between 2000 t0 2024 </p>
+            <p>But as per SSA's orders, Olvera was required to visit three “non biased” doctors who were not already treating Cleo to prove her daughter was deserving of SSI. </p>
+        </div>
+    </div>
+    <div class="content">
+    
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <p>Ananya Chetia is a data journalist based in NYC. Check out the code for my story <a href="https://github.com/jsoma/page-templates/">here</a>.
+        </div>
+    </div>
+
+</body>
+
+</html>

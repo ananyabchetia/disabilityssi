@@ -1,0 +1,2 @@
+## Understanding why disability benefit claims are pending
+Social Security Adminstration offices throughout the country approve or disaprove of disability claims called Supplemental Security Income (SSI) or Social Security Disability Insurance United States SSDI. I am looking into the number of pending cases for SSI and SSDI.
