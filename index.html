@@ -196,7 +196,7 @@
             }
         
             /* Small screens - show mobile image */
-            @media screen and (max-width: 489px) {
+            @media screen and (max-width: 342px) {
                 #g-template-mobile {
                     display: block;
                 }
@@ -229,6 +229,60 @@
         <div class="content">
             <p class="subhead"></p>
             <p>The Social Security Administration approved Less than 40% of SSI and SSDI claims. 2024 was no different, with just X% approved and with over X cases pending. </p>
+           
+            <style>
+                /* Responsive image container */
+                #g-template-box {
+                    width: 100%;
+                }
+            
+                #g-template-mediums,
+                #g-template-laptops,
+                #g-template-mobiles {
+                    display: none;
+                    width: 100%;
+                }
+            
+                /* Large screens - show medium image */
+                @media screen and (min-width: 620px) {
+                    #g-template-mediums {
+                        display: block;
+                    }
+                }
+            
+                /* Medium screens - show laptop image */
+                @media screen and (min-width: 490px) and (max-width: 619px) {
+                    #g-template-laptops {
+                        display: block;
+                    }
+                }
+            
+                /* Small screens - show mobile image */
+                @media screen and (max-width: 342px) {
+                    #g-template-mobiles {
+                        display: block;
+                    }
+                }
+            </style>
+            
+            <div id="g-template-box" class="ai2html">
+                <!-- Artboard: medium -->
+                <div id="g-template-mediums" class="g-artboard" style="width:620px; height:425px;" data-aspect-ratio="1.459" data-min-width="620">
+                    <img id="g-template-mediums-img" class="g-aiImg" alt="Disability data visualization" src="template-mediums.jpg" style="width:100%;"/>
+                </div>
+            
+                <!-- Artboard: laptop -->
+                <div id="g-template-laptops" class="g-artboard" style="width:490px; height:350px;" data-aspect-ratio="1.4" data-min-width="490" data-max-width="619">
+                    <img id="g-template-laptops-img" class="g-aiImg" alt="Disability data visualization" src="template-laptops.jpg" style="width:100%;"/>
+                </div>
+            
+                <!-- Artboard: mobile -->
+                <div id="g-template-mobiles" class="g-artboard" style="max-width: 375px;max-height: 342px" data-aspect-ratio="0.797" data-min-width="0" data-max-width="489">
+                    <img id="g-template-mobiles-img" class="g-aiImg" alt="Disability data visualization" src="template-mobiles.jpg" style="width:100%;"/>
+                </div>
+            </div>
+          
+
             <p>Elon Musk's Department of Government Efficiency has made staff cuts to the Social Security Administration, which have led to system outages, said Martin O' Malley, former Social Security Administration under  president Joe Biden and former governor of Maryland. </p>
             <p>“Ultimately, you're going to see the system collapse and an interruption of benefits,” O'Malley said. “I believe you will see that within the next 30 to 90 days.” O'Malley added that “people should start saving now.”</p>
             <p>X years later Olvera gave birth to her second child, Cleo. Baby Cleo was born weak with a flat head. </p>
