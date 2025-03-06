@@ -17,7 +17,8 @@ Social Security Adminstration offices throughout the country approve or disaprov
 ## Lessons learned
 1. One small detail, but important one I know now is that when I am filtering a subset of a pandas df, I need to use the .loc to explicitly modify the subset df. Or else, my code will get confused. 
 
-2. Another small detail, outer merging for combining my pandas df made the most sense! I usually do concat and delete the excess columns I don’t need but outer merge saved me that step. 
+2. Another small detail, outer merging for combining my pandas df made the most sense! I usually do concat and delete the excess columns I don't need but outer merge saved me that step. 
+
 
 ## Links I read:
 https://www.huffpost.com/entry/social-security-missed-benefit-payment_n_67c5d849e4b05a517aba7be2
