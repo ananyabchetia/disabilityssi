@@ -31,7 +31,7 @@ Possible sources I wanted to speak to before the due date:
 2. Rich Couture, spokesperson for AFGE SSA General Committee, a union that represents 42,000 Social Security employees nationally.
 
 ## Gratitude 
-Interviews were not necessary for this project but I realized a good data story can only happen when you talk to sources. I am forever grateful to have interviewed Suzzie. She was so honest, funny and patient when I would ask her clarifying questions. It was genuinely a wonderful reminder of why I continue reporting. 
+Interviews were not necessary for this project but I realized a good data story can only happen when you talk to sources. I am forever grateful to have interviewed Suzzie. She was so honest and patient when I would ask her clarifying questions. 
 
 
 
