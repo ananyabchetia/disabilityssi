@@ -33,33 +33,43 @@
         }
 
         
-        p {
-        text-align: left;
-        font-size: 20px;
-        font-family: Skia, "Skia-Regular", sans-serif;
-        line-height: 1.6;
+        .content {
+            max-width: 640px;
+            margin: auto;
         }
 
-        .footer {
-            background: #f4f4f4;
-            text-align: center;
-            font-size: 0.8em;
-            margin-top: 4em;
-            padding: 4em 0;
-        }
-
-        
-        body {
-    text-align: left; 
-    font-size: 20px; /* Sets text size */
-    font-family: Skia, "Skia-Regular", sans-serif; /* Ensures Skia font is used */
-    line-height: 1.6; /
-    margin: 0 auto; /
-    max-width: 800px; /
+        .landing_page {
+    padding: 100px 100px; /* Increase padding */
 }
 
+
+
+        .footer {
+    background: #f4f4f4;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 4em;
+    padding: 4em 0;
+    width: 100vw; /* Ensures full viewport width */
+    position: relative;
+    left: 0;
+}
+
+body {
+    text-align: left;
+    font-size: 20px;
+    font-family: Skia, "Skia-Regular", sans-serif;
+    line-height: 1.6;
+    margin: 0; /* Remove auto-centering */
+    padding: 0;
+    max-width: 100%; /* Prevent width constraints */
+}
+
+
+
+
         
-        .wk-desk-1 { width: 8.333333%; }
+        .wk-desk-1 { width: 9.333333%; }
         .wk-desk-2 { width: 16.666667%; }
         .wk-desk-3 { width: 25%; }
         .wk-desk-4 { width: 33.333333%; }
@@ -184,6 +194,14 @@
         }
         
 
+        .landing_page {
+    width: 100%;
+    padding: 60px 50px; 
+}
+
+
+
+
         @media (max-width: 768px) {
             .section-head {
                 font-size: 24px;
@@ -248,8 +266,6 @@
         </div>
     </div>
     <div class="content">
-        <div class="byline">
-        </div>
         <p>Suzzie Olvera took just her backpack and laptop the first time she went to go see him ten years ago. 
         </p>
         <p>Olvera didn't return back home until a year later, when she ran away. A survivor of human trafficking, Olvera had crossed the border from Mexico to the U.S and gave birth to her first child in April 2017. </p>
