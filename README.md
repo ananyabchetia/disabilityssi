@@ -28,7 +28,7 @@ https://www.reuters.com/graphics/SOUTHKOREA-CRASH/BIRDSTRIKES/egpbjdamxpq/
 ## Challenges
 1. Time! We were given only a week to finish. 
 Possible sources I wanted to speak to before the due date:
-2. Rich Couture, spokesperson for AFGE SSA General Committee, a union that represents 42,000 Social Security employees nationally.
+2. I am still waiting to speak to Rich Couture, a spokesperson for AFGE SSA General Committee. The AFGE SSA General Committee is a union that represents 42,000 Social Security employees nationally.
 
 ## Gratitude 
 Interviews were not necessary for this project but I realized a good data story can only happen when you talk to sources. I am forever grateful to have interviewed Suzzie. She was so honest and patient when I would ask her clarifying questions. 
