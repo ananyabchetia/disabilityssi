@@ -1,0 +1,16 @@
+{
+    "fonts": [
+        {
+            "aifont": "Skia-Regular",
+            "family": "Skia",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "Skia-Bold",
+            "family": "Skia",
+            "weight": "700",
+            "style": ""
+        }
+    ]
+}
